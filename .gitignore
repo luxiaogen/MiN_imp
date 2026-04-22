@@ -1,0 +1,50 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Python cache / build
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual envs
+.venv/
+venv/
+env/
+ENV/
+
+# Training outputs
+MiN/logs/
+MiN/vis/outputs/
+source/
+
+# Local datasets
+data/
+dataset/
+datasets/
+MiN/data/
+MiN/dataset/
+MiN/datasets/
+
+# Model checkpoints / exports
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.engine
+*.safetensors
+
+# Temporary / local artifacts
+*.tmp
+*.temp
+
+MiN/[DATA PATH]/
+*.tar
+*.tar.gz
