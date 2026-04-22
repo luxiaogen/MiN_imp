@@ -37,39 +37,3 @@ Use the script "run.sh" to reproduce the restlts of 10 steps setting:
 
 ## Log Files
 We hasv tested our code before uploading. The log files can be found in MiN/log. Due to the equipment change, we have to use 5090 to reproduce our results with torch==2.8.0+cu12.8. The result is basically the same as that stated in the paper.
-
-## Main results
-
-**CIFAR ViT-B/16-IN21K:**
-
-![CIFAR](source/cifar100_in21k_00.png)
-
-**CUB ViT-B/16-IN21K:**
-
-![CUB](source/cub_in21k_00.png)
-
-**IN-A ViT-B/16-IN21K:**
-
-![IN-A](source/ina_in21k_00.png)
-
-**IN-R ViT-B/16-IN21K:**
-
-![IN-R](source/inr_in21k_00.png)
-
-**FOOD ViT-B/16-IN21K:**
-
-![IN-R](source/food_in21k_00.png)
-
-**Omni. ViT-B/16-IN21K:**
-
-![IN-R](source/omni_in21k_00.png)
-
-**If you use any content of this repo for your work, please cite the following bib entries:**
-
-    @inproceedings{MiN,
-      title={Mixture of Noise for Pre-Trained Model-Based Class-Incremental Learning}, 
-      author={Kai Jiang and Zhengyan Shi and Dell Zhang and Hongyuan Zhang and Xuelong Li},
-      booktitle={The Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS)},
-      year={2025},
-      pages={},
-    }
